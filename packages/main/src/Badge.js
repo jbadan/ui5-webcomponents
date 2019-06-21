@@ -123,6 +123,12 @@ class Badge extends UI5Element {
 	get rtl() {
 		return getEffectiveRTL() ? "rtl" : undefined;
 	}
+
+	get hiddenText() {
+		// hard coded for now as there is no such
+		// text in UI5 classic
+		return "Badge";
+	}
 }
 
 Bootstrap.boot().then(_ => {
