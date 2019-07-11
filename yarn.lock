@@ -8302,6 +8302,11 @@ shallow-clone@^0.1.2:
     lazy-cache "^0.2.3"
     mixin-object "^2.0.1"
 
+shared-styles@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/shared-styles/-/shared-styles-1.0.2.tgz#ea08dcef883ddb781e2721a35db8d66418afe364"
+  integrity sha512-ll4fXbmWNGgc6dbCju0ZZzbdou9LFhDFeovGXihs2Tc3aYhpNLGDu8IcYNi335rIY04+0YcOLiUEzA+rTOWo3A==
+
 shebang-command@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"

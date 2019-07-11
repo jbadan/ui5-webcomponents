@@ -4,10 +4,10 @@ import { isSpace, isEnter } from "@ui5/webcomponents-base/dist/events/PseudoEven
 import { getCompactSize } from "@ui5/webcomponents-base/dist/config/CompactSize.js";
 import { getRTL } from "@ui5/webcomponents-base/dist/config/RTL.js";
 import { getFeature } from "@ui5/webcomponents-base/dist/FeaturesRegistry.js";
+import sharedCss from "shared-styles/dist/generated/button.css.js";
 import ButtonDesign from "./types/ButtonDesign.js";
 import ButtonTemplate from "./generated/templates/ButtonTemplate.lit.js";
 import Icon from "./Icon.js";
-
 // Styles
 import buttonCss from "./generated/themes/Button.css.js";
 
@@ -171,7 +171,7 @@ class Button extends UI5Element {
 	}
 
 	static get styles() {
-		return buttonCss;
+		return buttonCss.concat(sharedCss);
 	}
 
 	static get render() {

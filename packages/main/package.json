@@ -45,7 +45,7 @@
     }
   },
   "scripts": {
-    "build": "npm-run-all --sequential clean lint build:templates build:samples build:styles copy:src build:bundle copy:i18n copy:webcomponents-polyfill ",
+    "build": "npm-run-all --sequential clean build:templates build:samples build:styles copy:src build:bundle copy:i18n copy:webcomponents-polyfill ",
     "build:bundle": "rollup -c --environment ES5_BUILD",
     "build:templates": "mkdirp dist/generated/templates && node ./lib/hbs2ui5/index.js -d src/ -o dist/generated/templates",
     "build:samples": "npm run copy:test --scripts-prepend-node-path && npm run build:api --scripts-prepend-node-path && npm run build:docs --scripts-prepend-node-path && node lib/playground/index.js",
@@ -90,7 +90,8 @@
   },
   "dependencies": {
     "@ui5/webcomponents-base": "0.15.0",
-    "@ui5/webcomponents-core": "0.15.0"
+    "@ui5/webcomponents-core": "0.15.0",
+    "shared-styles": "^1.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",

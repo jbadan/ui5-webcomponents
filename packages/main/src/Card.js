@@ -3,6 +3,7 @@ import litRender from "@ui5/webcomponents-base/dist/renderer/LitRenderer.js";
 import { isIconURI } from "@ui5/webcomponents-base/dist/IconPool.js";
 import { isSpace, isEnter } from "@ui5/webcomponents-base/dist/events/PseudoEvents.js";
 import { getRTL } from "@ui5/webcomponents-base/dist/config/RTL.js";
+import sharedCss from "shared-styles/dist/generated/card.css.js";
 import CardTemplate from "./generated/templates/CardTemplate.lit.js";
 import Icon from "./Icon.js";
 
@@ -140,7 +141,7 @@ class Card extends UI5Element {
 	}
 
 	static get styles() {
-		return cardCss;
+		return cardCss.concat(sharedCss);
 	}
 
 	get classes() {
