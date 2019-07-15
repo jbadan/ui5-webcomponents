@@ -14,6 +14,7 @@ module.exports = {
         }),
         postcssDerivedColors(),
         postcssAddFallback(),
+        require('postcss-browser-reporter'),
         cssnano({preset: [
             'default', {
                 mergeLonghand: false, // https://github.com/cssnano/cssnano/issues/675

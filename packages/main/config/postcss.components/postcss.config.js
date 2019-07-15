@@ -7,6 +7,7 @@ module.exports = {
 	plugins: [
 		postcssImport(),
 		postcssAddFallback({importFrom: './dist/css/themes/sap_fiori_3/parameters-bundle.css'}),
+		require('postcss-browser-reporter'),
 		cssnano({
 			preset: [
 				'default', {

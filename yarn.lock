@@ -6964,6 +6964,13 @@ posix-character-classes@^0.1.0:
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
+postcss-browser-reporter@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/postcss-browser-reporter/-/postcss-browser-reporter-0.6.0.tgz#72f6b8fe89f5ff4ed1ab781cd3c256e0f415f395"
+  integrity sha512-61gzk4wgthOIen4TRURzYYVVIszyvcorkYmD40CopdM8cdwJaCTDMYo/y8HQqjTPqyelw7r2ptncmR9xrWpVnw==
+  dependencies:
+    postcss "^7.0.14"
+
 postcss-calc@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-7.0.1.tgz#36d77bab023b0ecbb9789d84dcb23c4941145436"
@@ -8302,10 +8309,10 @@ shallow-clone@^0.1.2:
     lazy-cache "^0.2.3"
     mixin-object "^2.0.1"
 
-shared-styles@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/shared-styles/-/shared-styles-1.0.2.tgz#ea08dcef883ddb781e2721a35db8d66418afe364"
-  integrity sha512-ll4fXbmWNGgc6dbCju0ZZzbdou9LFhDFeovGXihs2Tc3aYhpNLGDu8IcYNi335rIY04+0YcOLiUEzA+rTOWo3A==
+shared-styles@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/shared-styles/-/shared-styles-1.0.3.tgz#09c542b1ca8338f753e62bcc8ac13dd2dbd784f7"
+  integrity sha512-mXTIFOKMDKVA8VO2f/Dfky6AlQ87fbAahRWiBUz2EXuMoprGhFkZqjASBEXH5F/Ap7+5RU1WLz55UzpQvsRDmg==
 
 shebang-command@^1.2.0:
   version "1.2.0"
